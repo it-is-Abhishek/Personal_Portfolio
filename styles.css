@@ -9,7 +9,7 @@ body {
     background-color: #000;
     color: #fff;
     line-height: 1.4;
-    font-size: 0.95em;
+    font-size: 1.1em;
 }
 
 .container {
@@ -18,9 +18,9 @@ body {
 }
 
 .sidebar {
-    width: 250px;
+    width: 280px;
     background-color: #111;
-    padding: 15px;
+    padding: 18px;
     position: fixed;
     height: 100vh;
     overflow-y: auto;
@@ -32,8 +32,8 @@ body {
 }
 
 .profile-image {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background-color: #3498db;
     border-radius: 50%;
     display: flex;
@@ -46,7 +46,7 @@ body {
 }
 
 .profile h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin-bottom: 5px;
     color: #fff;
 }
@@ -54,7 +54,7 @@ body {
 .profile p {
     color: #ccc;
     margin-bottom: 8px;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .social-links {
@@ -66,7 +66,7 @@ body {
     text-decoration: none;
     margin: 0 8px;
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .social-links a:hover {
@@ -96,7 +96,7 @@ body {
     padding: 8px;
     border-radius: 4px;
     transition: background-color 0.3s;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .nav-link:hover,
@@ -106,15 +106,15 @@ body {
 }
 
 .main-content {
-    margin-left: 250px;
+    margin-left: 280px;
     flex: 1;
     padding: 15px;
-    max-width: calc(100% - 250px);
+    max-width: calc(100% - 280px);
 }
 
 .section {
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 18px;
     background-color: #111;
     border-left: 3px solid #3498db;
 }
@@ -122,12 +122,12 @@ body {
 .section h2 {
     color: #fff;
     margin-bottom: 15px;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(78px, 1fr));
     gap: 6px;
 }
 
@@ -137,7 +137,7 @@ body {
     border-radius: 4px;
     text-align: center;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.95em;
 }
 
 .education-item {
@@ -157,29 +157,29 @@ body {
 .education-item h3 {
     color: #fff;
     margin-bottom: 3px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .date {
     color: #3498db;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .education-item p {
     color: #ccc;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 22px;
 }
 
 .project-card {
     background-color: #222;
-    padding: 12px;
+    padding: 14px;
     border-radius: 6px;
     border: 1px solid #333;
     display: flex;
@@ -193,8 +193,8 @@ body {
 }
 
 .project-image {
-    width: 120px;
-    height: 120px;
+    width: 135px;
+    height: 135px;
     object-fit: cover;
     border-radius: 6px;
     transition: transform 0.3s ease;
@@ -211,19 +211,19 @@ body {
 .project-card h3 {
     color: #fff;
     margin-bottom: 8px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .project-card p {
     color: #ccc;
     margin-bottom: 4px;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .tech {
     font-style: italic;
     color: #3498db;
-    font-size: 0.85em;
+    font-size: 0.95em;
 }
 
 .project-links {
@@ -234,7 +234,7 @@ body {
     color: #3498db;
     text-decoration: none;
     margin-right: 8px;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .project-links a:hover {
@@ -247,22 +247,22 @@ body {
 
 .cert-item h3 {
     color: #fff;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .cert-item .date {
     color: #3498db;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .cert-item p {
     color: #ccc;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .cert-item a {
     color: #3498db;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 ul {
@@ -274,7 +274,7 @@ ul li {
     color: #ccc;
     margin-bottom: 8px;
     position: relative;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 ul li::before {
@@ -299,7 +299,7 @@ ul li::before {
     border: 1px solid #333;
     color: #fff;
     border-radius: 4px;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .contact-form button {
@@ -310,7 +310,7 @@ ul li::before {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 .contact-form button:hover {
@@ -357,7 +357,7 @@ html {
     }
 
     .skills-grid {
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
     }
 
     .project-card {
@@ -367,6 +367,6 @@ html {
 
     .project-image {
         width: 100%;
-        height: 120px;
+        height: 135px;
     }
 }
