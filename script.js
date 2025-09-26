@@ -1,4 +1,3 @@
-// Smooth scrolling for navigation links
 document.querySelectorAll('.nav-link').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -10,7 +9,6 @@ document.querySelectorAll('.nav-link').forEach(anchor => {
                 block: 'start'
             });
             document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
-            // Add active class to clicked link
             this.classList.add('active');
         }
     });
@@ -36,7 +34,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Intersection Observer for fade-in animations
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -50,12 +47,11 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all sections
 document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
-// Contact form handler
+
 document.querySelector('.contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     alert('Thank you for your message! It has been sent.');
