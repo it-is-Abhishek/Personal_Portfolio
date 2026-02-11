@@ -1,4 +1,5 @@
-import Navbar from "./navbar";
+import Navbar from "./components/navbar";
+import Body from "./components/body";
 
 export default function Home({
   children,
@@ -9,6 +10,7 @@ export default function Home({
     <>
       <Navbar />
       {children}
+      <Body/>
     </>
   );
 }
