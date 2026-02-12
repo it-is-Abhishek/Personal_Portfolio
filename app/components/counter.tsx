@@ -6,7 +6,7 @@ export default function AgeCounter() {
   const [years, setYears] = useState(0);
 
   useEffect(() => {
-    const startDate = new Date(Date.UTC(2005, 4, 27));
+    const startDate = new Date(Date.UTC(2005, 5, 27));
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -20,7 +20,7 @@ export default function AgeCounter() {
   }, []);
 
   return (
-    <p>
+    <p className="text-gray-400 font-mono tracking-wide tabular-nums">
       Been here for {years.toFixed(9)} years
     </p>
   );
