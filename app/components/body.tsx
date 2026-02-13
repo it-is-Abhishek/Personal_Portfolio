@@ -115,37 +115,55 @@ export default function Body() {
 
     <div className="mt-16 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
       <SkillCard
-  title="Languages & Frameworks"
-  icon={Code2}
-  skills={["HTML", "CSS", "JavaScript", "TypeScript", "Node.js", "React", "Next.js", "Rust", "Solidity"]}
-/>
+        title="Languages & Frameworks"
+        icon={Code2}
+        skills={["HTML", "CSS", "JavaScript", "TypeScript", "Node.js", "React", "Next.js", "Rust", "Solidity"]}
+      />
 
-<SkillCard
-  title="Databases & Tools"
-  icon={Database}
-  skills={["MongoDB", "PostgreSQL", "Prisma", "Git", "GitHub", "Postman", "VSCode", "Figma"]}
-/>
+      <SkillCard
+        title="Databases & Tools"
+        icon={Database}
+        skills={["MongoDB", "PostgreSQL", "Prisma", "Git", "GitHub", "Postman", "VSCode", "Figma"]}
+      />
 
-<SkillCard
-  title="UI & Styling"
-  icon={Palette}
-  skills={["Tailwind CSS"]}
-/>
+      <SkillCard
+        title="UI & Styling"
+        icon={Palette}
+        skills={["Tailwind CSS"]}
+      />
 
-<SkillCard
-  title="Other Skills"
-  icon={Users}
-  skills={["Public speaking", "Problem-solving", "Teamwork"]}
-/>
-  </div>
+      <SkillCard
+        title="Other Skills"
+        icon={Users}
+        skills={["Public speaking", "Problem-solving", "Teamwork"]}
+      />
+    </div>
 
+        <div className="mt-16 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <SkillCard
+        title="Languages & Frameworks"
+        icon={Code2}
+        skills={["HTML", "CSS", "JavaScript", "TypeScript", "Node.js", "React", "Next.js", "Rust", "Solidity"]}
+      />
 
+      <SkillCard
+        title="Databases & Tools"
+        icon={Database}
+        skills={["MongoDB", "PostgreSQL", "Prisma", "Git", "GitHub", "Postman", "VSCode", "Figma"]}
+      />
 
+      <SkillCard
+        title="UI & Styling"
+        icon={Palette}
+        skills={["Tailwind CSS"]}
+      />
 
-
-
-
-
+      <SkillCard
+        title="Other Skills"
+        icon={Users}
+        skills={["Public speaking", "Problem-solving", "Teamwork"]}
+      />
+    </div>
 
     </main>
 
