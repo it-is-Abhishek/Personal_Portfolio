@@ -1,6 +1,14 @@
 "use client"
 
-export default function SkillCard({ title, skills, icon: Icon }) {
+import { LucideIcon } from "lucide-react";
+
+interface SkillCardProps {
+  title: string;
+  skills: string[];
+  icon: LucideIcon;
+}
+
+export default function SkillCard({ title, skills, icon: Icon }: SkillCardProps) {
   return (
     <div className="p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm transition hover:bg-white/10">
       

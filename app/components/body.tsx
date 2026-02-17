@@ -294,7 +294,76 @@ export default function Body() {
     </section>
 
     <AchievementsSection/>
-    </main>
 
+
+        <footer className="w-full bg-black text-gray-400 mt-24">
+
+      {/* Divider */}
+      <div className="border-t border-white/10 mb-10" />
+
+      <div className="max-w-4xl mx-auto px-6 pb-10">
+
+        {/* Top Row */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+
+          {/* Left Side */}
+          <div className="space-y-1">
+            <p>
+              Contact:{" "}
+              <span className="text-gray-300">
+                your@email.com
+              </span>
+            </p>
+            <p>Pune, India</p>
+          </div>
+
+          {/* Right Side Icons */}
+          <div className="flex items-center gap-6 text-gray-400">
+            <a
+              href="mailto:your@email.com"
+              className="hover:text-white transition"
+            >
+              <Mail size={20} />
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <Twitter size={20} />
+            </a>
+
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <Linkedin size={20} />
+            </a>
+
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <Github size={20} />
+            </a>
+          </div>
+        </div>
+
+        {/* Bottom Copyright */}
+        <div className="text-center mt-12 text-sm text-gray-500">
+          © {new Date().getFullYear()} Abhishek Varma. All rights reserved.
+        </div>
+
+      </div>
+    </footer>
+
+    
+    </main>
   );
 }
